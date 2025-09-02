@@ -1,0 +1,111 @@
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(21, 23, 24);
+}
+
+body {
+    background-color: #e2d6e5;
+}
+
+#curriculum {
+    display: flex;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #95c6cb;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.mis_contactos {
+    background: #B4BEBF;
+    padding: 30px 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.mi_historial {
+    padding: 30px 40px;
+    flex: 1;
+}
+
+.fotoPerfil {
+    width: 250px;
+    height: 250px;
+    border-radius: 25%;
+    margin-bottom: 20px;
+    transition: width 0.3s ease, height 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.fotoPerfil:hover {
+    width: 250px;
+    height: 250px;
+    transform: scale(1.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+section h2 {
+    color: #0b0b0b;
+    margin-bottom: 10px;
+}
+#titulo {
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Tarjetas para secciones */
+.card-section {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(87,12,82,0.08);
+    padding: 20px 25px;
+    margin-bottom: 25px;
+    transition: box-shadow 0.2s;
+}
+.card-section:hover {
+    box-shadow: 0 4px 16px rgba(87,12,82,0.15);
+}
+
+/* Título con icono */
+.card-section h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+/* Habilidades en filas */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+.skill-item {
+    background: #95c6cb;
+    color: #570c52;
+    border-radius: 20px;
+    padding: 7px 18px;
+    font-size: 1em;
+    margin-bottom: 8px;
+    box-shadow: 0 1px 4px rgba(87,12,82,0.07);
+}
+
+/* Educación con línea lateral */
+.education-list {
+    border-left: 3px solid #95c6cb;
+    padding-left: 18px;
+}
+.education-item {
+    margin-bottom: 15px;
+}
+.education-item strong {
+    color: #0e0d0d;
+    font-size: 1.08em;
+}
